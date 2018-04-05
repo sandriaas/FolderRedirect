@@ -1,0 +1,19 @@
+{
+  "package": "jp.pxv.android",
+  "recommended": true,
+  "verified": false,
+  "authors": [
+    "simonsmh",
+    "oott123"
+  ],
+  "observers": [
+    {
+      "call_media_scan": true,
+      "add_to_downloads": false,
+      "source": "pixiv",
+      "target": "Pictures/pixiv",
+      "description": "saved_pictures",
+      "allow_child": false
+    }
+  ]
+}

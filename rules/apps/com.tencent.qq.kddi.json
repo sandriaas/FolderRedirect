@@ -1,0 +1,34 @@
+{
+  "package": "com.tencent.qq.kddi",
+  "recommended": true,
+  "verified": false,
+  "authors": [
+    "huihuimoe"
+  ],
+  "observers": [
+    {
+      "call_media_scan": true,
+      "add_to_downloads": true,
+      "source": "tencent/QQifile_recv",
+      "target": "Download/QQkddi",
+      "description": "saved_files",
+      "allow_child": false
+    },
+    {
+      "call_media_scan": true,
+      "add_to_downloads": false,
+      "source": "tencent/QQi_Images",
+      "target": "Pictures/QQkddi",
+      "description": "saved_pictures",
+      "allow_child": false
+    },
+    {
+      "call_media_scan": true,
+      "add_to_downloads": false,
+      "source": "tencent/MobileQQi/photo",
+      "target": "Pictures/QQkddi",
+      "description": "saved_photos",
+      "allow_child": false
+    }
+  ]
+}

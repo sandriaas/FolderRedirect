@@ -1,0 +1,18 @@
+{
+  "package": "com.keramidas.TitaniumBackup",
+  "recommended": true,
+  "verified": false,
+  "authors": [
+    "HYHYatt"
+  ],
+  "observers": [
+    {
+      "call_media_scan": false,
+      "add_to_downloads": false,
+      "source": "TitaniumBackup",
+      "target": "Documents/TitaniumBackup",
+      "description": "app_backup",
+      "allow_child": false
+    }
+  ]
+}

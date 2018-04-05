@@ -1,0 +1,34 @@
+{
+  "package": "com.tencent.qqlite",
+  "recommended": true,
+  "verified": false,
+  "authors": [
+    "Bubble"
+  ],
+  "observers": [
+    {
+      "call_media_scan": true,
+      "add_to_downloads": true,
+      "source": "tencent/QQfile_recv",
+      "target": "Download/QQLite",
+      "description": "saved_files",
+      "allow_child": false
+    },
+    {
+      "call_media_scan": true,
+      "add_to_downloads": false,
+      "source": "tencent/QQ_Images",
+      "target": "Pictures/QQLite",
+      "description": "saved_pictures",
+      "allow_child": false
+    },
+    {
+      "call_media_scan": true,
+      "add_to_downloads": false,
+      "source": "DCIM/Camera",
+      "target": "Pictures/QQLite",
+      "description": "saved_photos",
+      "allow_child": false
+    }
+  ]
+}

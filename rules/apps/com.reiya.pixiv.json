@@ -1,0 +1,18 @@
+{
+  "package": "com.reiya.pixiv",
+  "recommended": true,
+  "verified": false,
+  "authors": [
+    "coderfox"
+  ],
+  "observers": [
+    {
+      "call_media_scan": true,
+      "add_to_downloads": true,
+      "source": "MyPictures",
+      "target": "Pictures/Pixiv",
+      "description": "saved_photos",
+      "allow_child": false
+    }
+  ]
+}

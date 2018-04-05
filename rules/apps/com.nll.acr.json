@@ -1,0 +1,18 @@
+{
+  "package": "com.nll.acr",
+  "recommended": true,
+  "verified": false,
+  "authors": [
+    "oott123"
+  ],
+  "observers": [
+    {
+      "call_media_scan": false,
+      "add_to_downloads": false,
+      "source": "ACRCalls",
+      "target": "Music/ACRCalls",
+      "description": "保存的录音",
+      "allow_child": false
+    }
+  ]
+}

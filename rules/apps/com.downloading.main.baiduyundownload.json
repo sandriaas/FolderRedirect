@@ -1,0 +1,18 @@
+{
+  "package": "com.downloading.main.baiduyundownload",
+  "recommended": true,
+  "verified": false,
+  "authors": [
+    "Bubble"
+  ],
+  "observers": [
+    {
+      "call_media_scan": true,
+      "add_to_downloads": true,
+      "source": "BDY_DOWNLOAD",
+      "target": "Download/BDY_DOWNLOAD",
+      "description": "saved_files",
+      "allow_child": false
+    }
+  ]
+}

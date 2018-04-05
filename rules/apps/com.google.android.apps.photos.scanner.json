@@ -1,0 +1,9 @@
+{
+  "package": "com.google.android.apps.photos.scanner",
+  "recommended": false,
+  "verified": true,
+  "authors": [
+    "simonsmh"
+  ],
+  "observers": []
+}

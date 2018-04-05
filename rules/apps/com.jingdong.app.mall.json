@@ -1,0 +1,26 @@
+{
+  "package": "com.jingdong.app.mall",
+  "recommended": true,
+  "verified": false,
+  "authors": [
+    "fython"
+  ],
+  "observers": [
+    {
+      "call_media_scan": true,
+      "add_to_downloads": false,
+      "source": "jd/userPhoto",
+      "target": "Pictures/JD",
+      "description": "saved_pictures",
+      "allow_child": false
+    },
+    {
+      "call_media_scan": true,
+      "add_to_downloads": false,
+      "source": "DCIM/jdimage",
+      "target": "Pictures/JD",
+      "description": "saved_pictures",
+      "allow_child": false
+    }
+  ]
+}

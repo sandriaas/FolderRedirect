@@ -1,0 +1,26 @@
+{
+  "package": "com.sina.weibo",
+  "recommended": true,
+  "verified": false,
+  "authors": [
+    "fython"
+  ],
+  "observers": [
+    {
+      "call_media_scan": true,
+      "add_to_downloads": false,
+      "source": "sina/weibo/weibo",
+      "target": "Pictures/Weibo",
+      "description": "saved_pictures",
+      "allow_child": false
+    },
+    {
+      "call_media_scan": true,
+      "add_to_downloads": false,
+      "source": "sina/weibo/微博动图",
+      "target": "Pictures/WeiboGIF",
+      "description": "saved_gifs",
+      "allow_child": false
+    }
+  ]
+}

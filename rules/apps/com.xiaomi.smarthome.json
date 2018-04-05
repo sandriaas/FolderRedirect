@@ -1,0 +1,28 @@
+{
+  "package": "com.xiaomi.smarthome",
+  "recommended": true,
+  "verified": false,
+  "authors": [
+    "simonsmh",
+    "Shane",
+    "MizuhashiZ"
+  ],
+  "observers": [
+    {
+      "call_media_scan": true,
+      "add_to_downloads": false,
+      "source": "XiaoFangCamera/snapshot",
+      "target": "Pictures/Mi Home",
+      "description": "saved_pictures",
+      "allow_child": false
+    },
+    {
+      "call_media_scan": true,
+      "add_to_downloads": false,
+      "source": "XiaoFangCamera/recordMp4",
+      "target": "Movies/Mi Home",
+      "description": "saved_videos",
+      "allow_child": false
+    }
+  ]
+}

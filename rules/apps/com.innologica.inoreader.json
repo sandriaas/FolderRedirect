@@ -1,0 +1,18 @@
+{
+  "package": "com.innologica.inoreader",
+  "recommended": true,
+  "verified": false,
+  "authors": [
+    "msdx321"
+  ],
+  "observers": [
+    {
+      "call_media_scan": true,
+      "add_to_downloads": false,
+      "source": "Download",
+      "target": "Pictures/Inoreader",
+      "description": "saved_pictures",
+      "allow_child": false
+    }
+  ]
+}

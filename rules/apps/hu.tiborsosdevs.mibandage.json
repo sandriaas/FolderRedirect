@@ -1,0 +1,18 @@
+{
+  "package": "hu.tiborsosdevs.mibandage",
+  "recommended": true,
+  "verified": false,
+  "authors": [
+    "simonsmh"
+  ],
+  "observers": [
+    {
+      "call_media_scan": false,
+      "add_to_downloads": false,
+      "source": "MiBandage/Backup",
+      "target": "Documents/MiBandage",
+      "description": "app_backup",
+      "allow_child": false
+    }
+  ]
+}

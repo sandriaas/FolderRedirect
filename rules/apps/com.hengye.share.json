@@ -1,0 +1,26 @@
+{
+  "package": "com.hengye.share",
+  "recommended": true,
+  "verified": false,
+  "authors": [
+    "nickyc4"
+  ],
+  "observers": [
+    {
+      "call_media_scan": true,
+      "add_to_downloads": false,
+      "source": "Pictures/Share",
+      "target": "Pictures/ShareWeibo",
+      "description": "saved_pictures",
+      "allow_child": false
+    },
+    {
+      "call_media_scan": true,
+      "add_to_downloads": false,
+      "source": "Movies/Share",
+      "target": "Movies/ShareWeibo",
+      "description": "saved_videos",
+      "allow_child": false
+    }
+  ]
+}

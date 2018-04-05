@@ -1,8 +1,0 @@
-{
-    "package": "com.speedsoftware.rootexplorer",
-    "recommended": false,
-    "need_appops": false,
-    "feature_affected": true,
-    "authors": ["Shane", "simonsmh"],
-    "observers": []
-}

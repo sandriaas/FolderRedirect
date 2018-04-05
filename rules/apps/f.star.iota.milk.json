@@ -1,0 +1,18 @@
+{
+  "package": "f.star.iota.milk",
+  "recommended": true,
+  "verified": false,
+  "authors": [
+    "Lychinus"
+  ],
+  "observers": [
+    {
+      "call_media_scan": true,
+      "add_to_downloads": false,
+      "source": "Milk",
+      "target": "Pictures/Milk",
+      "description": "saved_pictures",
+      "allow_child": false
+    }
+  ]
+}

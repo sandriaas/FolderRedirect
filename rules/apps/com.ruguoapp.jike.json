@@ -1,0 +1,19 @@
+{
+  "package": "com.ruguoapp.jike",
+  "recommended": true,
+  "verified": false,
+  "authors": [
+    "FoobarRogers",
+    "MizuhashiZ"
+  ],
+  "observers": [
+    {
+      "call_media_scan": true,
+      "add_to_downloads": false,
+      "source": "com.ruguoapp.jike/jikeImg",
+      "target": "Pictures/jike",
+      "description": "saved_pictures",
+      "allow_child": false
+    }
+  ]
+}

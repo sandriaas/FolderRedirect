@@ -1,7 +1,0 @@
-{
-	"package": "com.zhaopin.social",
-	"recommended": true,
-	"need_appops": true,
-	"authors": ["Shane"],
-	"observers": []
-}

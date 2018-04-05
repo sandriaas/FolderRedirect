@@ -1,0 +1,11 @@
+{
+  "package": "pl.solidexplorer2",
+  "recommended": false,
+  "verified": true,
+  "description": {
+    "internal": "pure_file_manager"
+  },
+  "authors": [
+    "simonsmh"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "package": "com.tencent.tim",
+  "recommended": true,
+  "verified": false,
+  "authors": [
+    "CubeSky"
+  ],
+  "observers": [
+    {
+      "call_media_scan": true,
+      "add_to_downloads": true,
+      "source": "tencent/TIMfile_recv",
+      "target": "Download/TIM",
+      "description": "saved_files",
+      "allow_child": false
+    },
+    {
+      "call_media_scan": true,
+      "add_to_downloads": false,
+      "source": "tencent/TIM_Images",
+      "target": "Pictures/TIM",
+      "description": "saved_pictures",
+      "allow_child": false
+    },
+    {
+      "call_media_scan": true,
+      "add_to_downloads": false,
+      "source": "DCIM/Camera",
+      "target": "Pictures/TIM",
+      "description": "saved_photos",
+      "allow_child": false
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "package": "cn.wps.moffice_eng",
+  "recommended": true,
+  "verified": false,
+  "authors": [
+    "Shane"
+  ],
+  "observers": [
+    {
+      "call_media_scan": false,
+      "add_to_downloads": false,
+      "source": "documents",
+      "target": "Documents/WPS",
+      "description": "saved_files",
+      "allow_child": false
+    }
+  ]
+}

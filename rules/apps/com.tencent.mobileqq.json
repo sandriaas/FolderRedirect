@@ -1,0 +1,34 @@
+{
+  "package": "com.tencent.mobileqq",
+  "recommended": true,
+  "verified": false,
+  "authors": [
+    "oott123"
+  ],
+  "observers": [
+    {
+      "call_media_scan": true,
+      "add_to_downloads": true,
+      "source": "tencent/QQfile_recv",
+      "target": "Download/QQ",
+      "description": "saved_files",
+      "allow_child": false
+    },
+    {
+      "call_media_scan": true,
+      "add_to_downloads": false,
+      "source": "tencent/QQ_Images",
+      "target": "Pictures/QQ",
+      "description": "saved_pictures",
+      "allow_child": false
+    },
+    {
+      "call_media_scan": true,
+      "add_to_downloads": false,
+      "source": "DCIM/Camera",
+      "target": "Pictures/QQ",
+      "description": "saved_photos",
+      "allow_child": false
+    }
+  ]
+}

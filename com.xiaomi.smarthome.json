@@ -1,8 +1,0 @@
-{
-    "package": "com.xiaomi.smarthome",
-    "recommended": true,
-    "need_appops": true,
-    "feature_affected": false,
-    "authors": ["simonsmh", "Shane"],
-    "observers": []
-}

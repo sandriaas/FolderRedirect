@@ -1,0 +1,15 @@
+{
+    "package": "akhil.alltrans",
+    "recommended": true,
+    "need_appops": false,
+    "feature_affected": false,
+    "authors": ["andrizmitnick"],
+    "observers": [
+        {
+            "description": "redirect_folder",
+            "call_media_scan": false,
+            "source": "AllTransBackup",
+            "target": "Android/app_data/AllTrans"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "package": "com.catalinagroup.callrecorder",
+    "recommended": true,
+    "need_appops": false,
+    "feature_affected": false,
+    "authors": ["andrizmitnick"],
+    "observers": [
+        {
+            "description": "redirect_folder",
+            "call_media_scan": false,
+            "source": "CubeCallRecorder",
+            "target": "Android/app_data/Cube ACR"
+        },
+		{
+            "description": "save_recordings",
+            "call_media_scan": false,
+			"mask": ".+\\.(amr|ogg|wav|mp3)$",
+            "source": "Android/app_data/Cube ACR/All",
+            "target": "Record/CallRecord"
+        }
+    ]
+}

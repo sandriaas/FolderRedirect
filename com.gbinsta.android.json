@@ -1,0 +1,29 @@
+{
+    "package": "com.gbinsta.android",
+    "recommended": true,
+    "need_appops": false,
+    "feature_affected": false,
+    "authors": ["andrizmitnick"],
+    "observers": [
+        {
+            "description": "redirect_folder",
+            "call_media_scan": false,
+            "source": "GBInstagram",
+            "target": "Android/app_data/GBInstagram"
+        },
+		{
+            "description": "save_images",
+            "call_media_scan": true,
+			"mask": ".+\\.jpg$",
+            "source": "Android/app_data/GBInstagram",
+            "target": "Downloads/Pictures"
+        },
+		{
+            "description": "save_videos",
+            "call_media_scan": true,
+			"mask": ".+\\.mp4$",
+            "source": "Android/app_data/GBInstagram",
+            "target": "Downloads/Videos"
+        }
+    ]
+}

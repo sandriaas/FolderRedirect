@@ -1,0 +1,11 @@
+{
+	"package": "com.wondershare.filmorago",
+	"recommended": true,
+	"authors": ["CubeSky"],
+	"observers": [{
+		"description": "saved_videos",
+		"call_media_scan": true,
+		"source": "DCIM/CAMERA",
+		"target": "DCIM/FilmoraGo"
+	}]
+}
